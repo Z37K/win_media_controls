@@ -1,5 +1,4 @@
-# Win Media Controls
-Windows Media Controls
+# Windows Media Controls (win_media_controls)
 
 A lightweight Windows utility that maps **Ctrl+Right** and **Ctrl+Left** to media **Next Track** and **Previous Track** keys.
 
