@@ -2,15 +2,21 @@
 
 A lightweight Windows utility that maps **Ctrl+Right** and **Ctrl+Left** to media **Next Track** and **Previous Track** keys.
 
-## Why?
+This minimal background process allows you to nativage media on Windows with simple keyboard shortcuts for keyboards without dedicated media keys.
 
-Some keyboards don't have media keys. This minimal background process allows you to nativage media on Windows with simple keyboard shortcuts.
+## Getting Started
 
-## Build
+### Download
+
+Download the latest `win_media_controls.exe` from the **[Releases](../../releases)** page.
+
+### Build (Optional)
+
+To modify or recompile the script yourself.
 
 Requires any C++ compiler targeting Windows (e.g. [w64devkit](https://github.com/skeeto/w64devkit/releases), MinGW, or MSVC).
 
-```
+```bash
 g++ win_media_controls.cpp -o win_media_controls.exe -mwindows
 ```
 
